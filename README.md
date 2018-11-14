@@ -1,8 +1,8 @@
 # Meowpress
 
-> Homepage of Meowpress, an open source blogging platform. Proudly made with love from BIT.
+> Meowpress, an open source blogging platform.
 
-<!-- ## Build Setup
+## Build Setup
 
 ``` bash
 # install dependencies
@@ -19,4 +19,4 @@ $ yarn start
 $ yarn run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org). -->
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
