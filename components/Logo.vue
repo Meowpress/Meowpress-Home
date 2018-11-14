@@ -1,13 +1,20 @@
 <template>
-  <div class="VueToNuxtLogo">
+  <!-- <div class="VueToNuxtLogo">
     <div class="Triangle Triangle--two"/>
     <div class="Triangle Triangle--one"/>
     <div class="Triangle Triangle--three"/>
     <div class="Triangle Triangle--four"/>
+  </div> -->
+  <div class="MeowpressLogo">
+    <img src="~/assets/cat-logo.png" width="25%">
   </div>
 </template>
 
 <style>
+.MeowpressLogo {
+  display: inline;
+}
+
 .VueToNuxtLogo {
   display: inline-block;
   animation: turn 2s linear forwards 1s;
