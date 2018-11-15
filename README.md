@@ -2,7 +2,7 @@
 
 > Meowpress, an open source blogging platform. Under construction. 🚸
 
-![](static/title.png)
+![](static/mainpage.png)
 
 ## Tools
 
