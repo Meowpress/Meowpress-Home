@@ -76,6 +76,7 @@ export default {
   font-size: 64px;
   color: #343A40;
   letter-spacing: 1px;
+  padding-top: 2rem;
 }
 
 .subtitle {
@@ -83,7 +84,7 @@ export default {
   font-weight: 400;
   font-size: 32px;
   color: #343A40;
-  word-spacing: 5px;
+  word-spacing: 1px;
   padding-bottom: 15px;
 }
 

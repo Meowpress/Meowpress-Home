@@ -123,7 +123,7 @@ export default {
   font-weight: 400;
   font-size: 32px;
   color: #343a40;
-  word-spacing: 5px;
+  word-spacing: 1px;
   padding-bottom: 15px;
 }
 

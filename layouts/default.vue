@@ -12,6 +12,7 @@ html {
   //   Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  color: #343A40;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
