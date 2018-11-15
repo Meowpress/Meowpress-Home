@@ -6,28 +6,27 @@
     <b-collapse is-nav id="nav_collapse">
 
     <b-navbar-nav>
-      <b-link class="to-home" to="/">Home</b-link>
+      <b-link class="nav-link" to="/">Home</b-link>
     </b-navbar-nav>
     <!-- Right aligned nav items -->
     <b-navbar-nav class="ml-auto">
-      <b-nav-form>
+      <b-nav-item>
+        <b-badge class="nav-brand-badge" variant="primary">v1.0.0</b-badge>
+      </b-nav-item>
+      <b-nav-item href="https://github.com/Meowpress"> <i class="fa fa-github" aria-hidden="true"></i> GitHub </b-nav-item>
+      <b-nav-item href="/"> <i class="fa fa-slack" aria-hidden="true"></i> Slack </b-nav-item>
+      <b-nav-item href="/"> <i class="fa fa-telegram" aria-hidden="true"></i> Telegram </b-nav-item>
+      <!-- <b-nav-form>
         <b-form-input size="sm" class="mr-sm-2" type="text" placeholder="邀请码"/>
-        <b-button class="submit-btn" size="sm" type="submit" variant="dark">注册</b-button>
-      </b-nav-form>
-
+      </b-nav-form> -->
+      <!-- <b-button class="submit-btn" size="sm" type="submit" variant="dark">登录</b-button> -->
       <b-nav-item-dropdown text="Translations" right>
         <b-dropdown-item href="#">English</b-dropdown-item>
         <b-dropdown-item href="#">简体中文</b-dropdown-item>
       </b-nav-item-dropdown>
+      <b-nav-item> | </b-nav-item>
+      <b-link class="nav-link" to="/login">Login</b-link>
 
-      <b-nav-item-dropdown right>
-        <!-- Using button-content slot -->
-        <template slot="button-content">
-          User
-        </template>
-        <b-dropdown-item href="#">Profile</b-dropdown-item>
-        <b-dropdown-item href="#">Sign out</b-dropdown-item>
-      </b-nav-item-dropdown>
     </b-navbar-nav>
     </b-collapse>
     </b-navbar>
@@ -38,18 +37,23 @@
 /* .meowpress-navbar {
   border-top: 3px solid #343A40;
 } */
-.to-home {
+.nav-brand-badge {
+  color: #ffffff;
+  font-weight: 400;
+}
+.nav-link {
   color: #343A40;
 }
 
-.to-home:hover {
+.nav-link:hover {
   color: #343A40;
 }
 
 .navbar-brand {
   font-weight: 600;
 }
-.submit-btn {
+/* .submit-btn {
   margin-right: 10px;
-}
+  padding: 2px 20px;
+} */
 </style>

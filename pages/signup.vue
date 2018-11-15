@@ -2,16 +2,16 @@
 <div>
   <Nav/>
   <section class="container">
-    <div class="login-wrapper">
+    <div class="signup-wrapper">
       <h1 class="title">
-        <i class="fa fa-tags"></i> <span>Login</span> <b-badge class="meow-badge" variant="info">Welcome back</b-badge>
+        <i class="fa fa-tags"></i> Sign up
       </h1>
       <h2 class="subtitle">
         Meow, yet another open source blogging platform.
       </h2>
-      <div class="login">
+      <div class="signup">
         <b-form @submit="onSubmit" v-if="show">
-            <!-- <b-form-group id="userName"
+            <b-form-group id="userName"
                         label="Your Name:"
                         label-for="userNameLabel"
                         description="Let us know your name!">
@@ -21,7 +21,7 @@
                           required
                           placeholder="Enter name">
             </b-form-input>
-          </b-form-group> -->
+          </b-form-group>
           <b-form-group id="userEmail"
                         label="Email address:"
                         label-for="userEmailLabel"
@@ -36,12 +36,12 @@
                     <b-form-group id="userPassword"
                         label="Password:"
                         label-for="userPasswordLabel"
-                        description="Your password is safe and secure with us.">
+                        description="Create a strong and secure password.">
             <b-form-input id="userPasswordLabel"
                           type="password"
                           v-model="form.password"
                           required
-                          placeholder="Enter your password">
+                          placeholder="Create a password">
             </b-form-input>
           </b-form-group>
           <!-- <b-form-group id="userTheme"
@@ -53,12 +53,12 @@
                           v-model="form.food">
             </b-form-select>
           </b-form-group> -->
-          <!-- <b-form-group id="exampleGroup4">
+          <b-form-group id="exampleGroup4">
             <b-form-checkbox-group v-model="form.checked" id="exampleChecks">
               <b-form-checkbox value="me">Check me out</b-form-checkbox>
               <b-form-checkbox value="that">Check that out</b-form-checkbox>
             </b-form-checkbox-group>
-          </b-form-group> -->
+          </b-form-group>
           <b-button type="submit" variant="dark">Submit</b-button>
         </b-form>
       </div>
@@ -81,9 +81,8 @@ export default {
     return {
       form: {
         email: '',
-        password: '',
-        // name: '',
-        // checked: []
+        name: '',
+        checked: []
       },
       // foods: [
       //   { text: 'Select One', value: null },
@@ -113,20 +112,6 @@ export default {
   text-align: left;
 }
 
-.login-wrapper {
-  max-width: 600px;
-}
-
-.meow-badge {
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  padding: 8px 12px;
-  position: relative;
-  top: -30px;
-  right: -5px;
-}
-
 .title {
   /* font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; */
@@ -145,6 +130,10 @@ export default {
   color: #343a40;
   word-spacing: 1px;
   padding-bottom: 15px;
+}
+
+.signup-wrapper {
+  max-width: 600px;
 }
 
 .footer {

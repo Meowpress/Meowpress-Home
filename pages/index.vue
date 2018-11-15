@@ -16,8 +16,8 @@
           target="_blank"
           class="button--grey">GitHub</a>
         <nuxt-link
-          to="/login"
-          class="button--yellow">登录</nuxt-link>
+          to="/signup"
+          class="button--yellow">Sign up</nuxt-link>
       </div>
     </div>
   </section>
@@ -36,24 +36,20 @@
       五分钟迅捷建站
     </h2>
   </section>
-  <div class="footer">
-    Follow us on
-    <a href="#foo"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a> · 
-    <a href="#foo"><i class="fa fa-telegram" aria-hidden="true"></i> Telegram</a> · 
-    <a href="#foo"><i class="fa fa-weibo" aria-hidden="true"></i> Weibo</a> and more.<br>
-    ©2018 Proudly made with <i class="fa fa-heart" aria-hidden="true"></i> from BIT.
-  </div>
+  <Footer/>
 </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
 import Nav from '~/components/Nav.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Logo,
-    Nav
+    Nav,
+    Footer
   }
 }
 </script>
@@ -106,15 +102,6 @@ export default {
 
 .intro-container-1, .intro-container-3 {
   background-color: #FAFAFA;
-}
-
-.footer {
-  padding: 3rem;
-  text-align: center;
-  color: #fff;
-  text-decoration: none;
-  background-color: #343A40;
-  line-height: 2rem;
 }
 
 a {
