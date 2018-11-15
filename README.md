@@ -1,6 +1,8 @@
 # Meowpress
 
-> Meowpress, an open source blogging platform.
+> Meowpress, an open source blogging platform. Under construction. 🚸
+
+![](static\title.png)
 
 ## Build Setup
 
