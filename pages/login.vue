@@ -108,17 +108,19 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; */
+  font-family: 'Merriweather', serif;
   display: block;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 64px;
   color: #343a40;
   letter-spacing: 1px;
 }
 
 .subtitle {
-  font-weight: 300;
+  font-family: 'Montserrat', serif;
+  font-weight: 400;
   font-size: 32px;
   color: #343a40;
   word-spacing: 5px;
