@@ -11,19 +11,13 @@
         Meow, yet another open source blogging platform.
       </h2>
       <div class="links">
-        <!-- <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/Meowpress"
           target="_blank"
-          class="button--grey">GitHub</a> -->
-        <b-button href="#" size="lg" variant="dark">
-          <div class="main-button-text">
-            建站指北
-          </div>
-        </b-button>
+          class="button--grey">GitHub</a>
+        <nuxt-link
+          to="/login"
+          class="button--yellow">登录</nuxt-link>
       </div>
     </div>
   </section>
@@ -70,23 +64,23 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 64px;
-  color: #2c2c2c;
+  color: #343A40;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 32px;
-  color: #2c2c2c;
+  color: #343A40;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
@@ -116,7 +110,6 @@ export default {
   text-align: center;
   color: #fff;
   text-decoration: none;
-
   background-color: #343A40;
   line-height: 2rem;
 }
